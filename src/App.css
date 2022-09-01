@@ -1,0 +1,49 @@
+html{
+    margin: 0 0 0 0 ;
+    padding:0 0 0 0 ;
+    background: url(../public/RickAndMortyBackground.png) no-repeat center center fixed;
+}
+
+table{
+    background-color: #ff6f69;
+    width:80%;
+    max-width: 80%;
+}
+
+table, th, td {
+    border:4px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    font-weight: bolder;
+}
+    
+.barChartContainer{
+    border:4px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(199, 111, 111, 0.75);
+    width:80%;
+    max-width: 80%;  
+    margin-top: 2%;  
+}
+    
+.leastPopularCharcterTable{
+    width:80%;
+    max-width: 80%;
+}
+
+.App{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barValue{
+    margin-left: 10px;
+}
+
+.barName{
+    margin-left: 10px;
+}
+    
